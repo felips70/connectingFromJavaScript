@@ -26,7 +26,6 @@ function formatResult (result) {
     } = row;
     console.log(`Found ${length} person(s) by the name ${fname}:`);
     console.log(`- ${id}: ${fname} ${lname}, born ${birthdate}`);
-    process.exit;
    })
  }
 function end() {
